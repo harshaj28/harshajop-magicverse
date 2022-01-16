@@ -29,7 +29,7 @@ function SendMessage({endOfMessagesRef}) {
         setMessage("");
     }
     return (
-        <div className="flex fixed bottom-10 bg-black opacity-80 w-11/12
+        <form className="flex fixed bottom-10 bg-black opacity-80 w-11/12
         px-6 py-4 rounded-full max-w-2xl shadow-xl border-4 border-blue-200">
             <input className=" flex-grow outline-none bg-transparent text-white
             placeholder-gray-500 pr-5" type="text"
@@ -41,7 +41,7 @@ function SendMessage({endOfMessagesRef}) {
             type="submit"
             onClick={sendMessage} 
             className="font-bold text-pink-500">Send</button>
-        </div>
+        </form>
     )
 }
 

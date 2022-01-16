@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {useMoralis} from "react-moralis"
-function Avatar({usernamee},{logoutOnPress}) {
+function Avatar({logoutOnPress},{usernamee}) {
     const {user,logout}=useMoralis();
     return (
             <Image 
